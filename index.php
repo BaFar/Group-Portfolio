@@ -107,13 +107,43 @@
 
 </div>
 
+<!--End of  Page Header -->
 
-<div class="row">
-
-
-
+<!--Start of  Feature Block-->
+<div class="feature-block">
+  <div class="main-feature">
+    <div class="container">
+      <div class="col-lg-3 single-feature" ><img src="img/smallimg1.jpeg" alt="small image" class="single-small-img"></div>
+      <div class="col-lg-3 single-feature" ><img src="img/smallimg2.jpeg" alt="small image" class="single-small-img"></div>
+      <div class="col-lg-3 single-feature" ><img src="img/smallimg3.jpeg" alt="small image" class="single-small-img"></div>
+      <div class="col-lg-3 single-feature" ><img src="img/smallimg4.jpeg" alt="small image" class="single-small-img"></div>
+    </div>
+  </div>
+  <div class="feature-text">
+    <div class="container">
+      <div>
+        <h4>FindingSoft assembled some topnotch software engineers in our country to work together.
+Each member of the team has done something exceptional in different areas.</h4>
+        <button class="btn btn-primary btn-lg" ><a href="#" style="color: #fff">Banglasoft</a></button>
+      </div>
+    </div>
+  </div>
 
 </div>
+<!--End of Feature Block-->
+
+<!--Start of Portfolio Block-->
+  <div class="portfolio-block">
+    <div class="container">
+      <div class="portfolio-header" style="text-align: center;"><h4>Poftfolio</h4></div>
+      <div class="portfolio-body">
+        <div class="col-lg-4 single-portfolio"><img src="img/softwaredev.jpeg" alt="software"></div>
+        <div class="col-lg-4 single-portfolio"><img src="img/webdev.jpeg" alt="web"></div>
+        <div class="col-lg-4 single-portfolio"><img src="img/mobiledev.jpeg" alt="mobile"></div>
+      </div>
+    </div>
+    
+  </div>
 
 <script type="text/javascript" src="js/bootstrap.js"></script>
 </body>

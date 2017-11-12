@@ -8,3 +8,19 @@
 .element-color{
 	color: #fff!important;
 }
+
+.single-feature{
+	height: 100px;
+	padding: 20px 20px 20px 20px;
+	align-content: center;
+
+}
+.single-small-img{
+	width: 80px;
+	height: 80px;
+	vertical-align: center;
+
+}
+.feature-text{
+	background-color: rgba(0,0,0,0.3);
+}
