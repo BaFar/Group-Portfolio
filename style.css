@@ -10,7 +10,7 @@
 }
 
 .single-feature{
-	height: 100px;
+	height: 120px;
 	padding: 20px 20px 20px 20px;
 	align-content: center;
 
@@ -18,9 +18,19 @@
 .single-small-img{
 	width: 80px;
 	height: 80px;
-	vertical-align: center;
+	
 
 }
 .feature-text{
 	background-color: rgba(0,0,0,0.3);
+}
+.border{
+	
+	margin: 0 40%;
+	border-top: 1px solid green;
+	border-bottom: 1px solid green;
+}
+.about-us-section2 {
+	background-color: green;
+	opacity: 0.8;
 }
