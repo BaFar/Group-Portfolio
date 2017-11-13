@@ -263,10 +263,48 @@ Each member of the team has done something exceptional in different areas.</h4>
             </div>
           </div>
           <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-            
+            <div class="row">
+              <div class="col-lg-12 about-slide">
+                <div id="carousel-skill" class="carousel slide" data-ride="carousel">
+                  <ol class="carousel-indicators">
+
+                    <li data-target="#carousel-skill" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-skill" data-slide-to="1"></li>
+                    <li data-target="#carousel-skill" data-slide-to="2"></li>
+                  </ol>
+                  <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                      <img src="img/aboutimg1.jpeg" alt="about image" class="img-responsive">
+                      <div><!-- caption--></div>
+                    </div>
+                    <div class="item">
+                      <img src="img/aboutimg2.jpeg" alt="about image" class="img-responsive">
+                      <div></div>
+                    </div>
+                    <div class="item">
+                      <img src="img/aboutimg3.jpeg" alt="about image" class="img-responsive">
+                      <div></div>
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
            
       </div>
+    </div>
+  </div>
+
+  <div class="about-us-section3">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" style="background-color: #a33; height: 140px;"></div>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" style="background-color: #bb4; height: 140px;"></div>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" style="background-color: #5c5; height: 140px;"></div>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" style="background-color: #d6d; height: 140px;"></div>
+      </div>
+
     </div>
   </div>
 

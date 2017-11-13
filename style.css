@@ -34,3 +34,8 @@
 	background-color: green;
 	opacity: 0.8;
 }
+
+.about-slide img {
+    width: 100%;
+}
+
