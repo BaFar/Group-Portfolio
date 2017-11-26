@@ -6,6 +6,7 @@
 	<meta name="viewport" width="device-width" initial-scale="1.0">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
 	<!-- Js  imported here-->
  <script src="js/bootstrap.min.js">
  	$('.carousel').carousel({
@@ -299,10 +300,31 @@ Each member of the team has done something exceptional in different areas.</h4>
   <div class="about-us-section3">
     <div class="container">
       <div class="row">
-        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" style="background-color: #a33; height: 140px;"></div>
-        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" style="background-color: #bb4; height: 140px;"></div>
-        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" style="background-color: #5c5; height: 140px;"></div>
-        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" style="background-color: #d6d; height: 140px;"></div>
+        <div class=" col-md-3 col-sm-6 col-xs-12">
+            <div class="single-stat">
+              
+              <i class="fa fa-cloud-upload" aria-hidden="true"><br><br>34</i>
+              <h3>Files upload</h3>
+            </div>
+        </div>
+        <div class=" col-md-3 col-sm-6 col-xs-12 ">
+          <div class="single-stat">            
+            <i class="fa fa-check" aria-hidden="true"><br><br>13</i>          
+            <h3>Project Completed</h3>
+        </div>
+        </div>
+        <div class=" col-md-3 col-sm-6 col-xs-12 ">
+          <div class="single-stat">            
+            <i class="fa fa-code" aria-hidden="true"><br><br>24832</i>
+            <h3>Lines of Code Written</h3>
+          </div>
+        </div>
+        <div class=" col-md-3 col-sm-6 col-xs-12 ">
+          <div class="single-stat">                    
+          <i class="fa fa-male" aria-hidden="true"><br><br>9</i>
+          <h3>Happy Client</h3>
+        </div>
+        </div>
       </div>
 
     </div>

@@ -9,6 +9,8 @@
 	color: #fff!important;
 }
 
+.single
+
 .single-feature{
 	height: 120px;
 	padding: 20px 20px 20px 20px;
@@ -30,6 +32,17 @@
 	border-top: 1px solid green;
 	border-bottom: 1px solid green;
 }
+
+.single-portfolio{
+	text-align: center;
+
+}
+
+.single-portfolio img{
+	margin: 0px auto;
+}
+
+
 .about-us-section2 {
 	background-color: green;
 	opacity: 0.8;
@@ -38,4 +51,26 @@
 .about-slide img {
     width: 100%;
 }
+.about-us-section3{
+	background: rgba(0,0,0,0.2) url("img/aboutimg3.jpeg") no-repeat;
+	background-size: cover;
+}
+
+
+
+.single-stat{
+	margin:20px 0px;
+	padding: 10px 10px;
+	height: 180px;
+	text-align:center;
+	align-items: center;
+	background-color: rgba(0,0,0,0.4);
+	color:#28ABE3;
+	font-size: 35px;
+
+}
+.single-stat h3{
+	color: #fff;
+}
+
 
