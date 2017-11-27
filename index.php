@@ -10,6 +10,14 @@
 	<link rel="stylesheet" href="css/owl.carousel.min.css">
 	<link rel="stylesheet" href="css/owl.theme.default.min.css">
 
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/bootstrap.min.js">
+			$('.carousel').carousel({
+				interval: 2000
+			})
+		</script> 
+
+
 </head>
 <body>
 	<div class="page_header">	
@@ -17,7 +25,7 @@
 		<div class="nav navbar-inverse nav-position element-color">
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-12">
+					<div class="col-lg-12 main-menu">
 						<div class="navbar-header">
 							<button class="navbar-toggle" data-target="#mobile_manu" data-toggle="collapse">
 								<span class="icon-bar"></span>
@@ -28,15 +36,12 @@
 
 						</div>
 						<ul class="nav navbar-nav navbar-collapse collapse navbar-right " id="mobile_manu">
-							<li class="active"><a href="#">Feature</a></li>
-							<li><a href="#" class="element-color">Portfolio</a></li>
-							<li><a href="#" class="element-color">About</a></li>
-							<li><a href="#" class="element-color">Team</a></li>
-							<li><a href="#" class="element-color">Pricing</a></li>
-							<li><a href="#" class="element-color">Training</a></li>
-							<li><a href="#" class="element-color">Testimonials</a></li>
-							<li><a href="#" class="element-color">Partner</a></li>
-							<li><a href="#" class="element-color">Contact</a></li>
+							<li class="active"><a href="#feature-address">Feature</a></li>
+							<li><a href="#portfolio-address" class="element-color">Portfolio</a></li>
+							<li><a href="#about-address" class="element-color">About</a></li>
+							<li><a href="#team-address" class="element-color">Team</a></li>							
+							<li><a href="#training-address" class="element-color">Training</a></li>
+							<li><a href="#contact-address" class="element-color">Contact</a></li>
 						</ul>
 					</div>
 				</div>
@@ -106,25 +111,33 @@
 	<!--End of  Page Header -->
 
 	<!--Start of  Feature Block-->
-	<div class="feature-block">
+	<div class="feature-block" id="feature-address">
 		<div class="main-feature">
 			<div class="container">
 				<div class="row">
 
 					<div class="col-lg-3 col-md-3 col-sm-6 col-xm-12 single-feature" >
-						<img src="img/smallimg1.jpeg" alt="small image" class="img-responsive center-block single-small-img">
+						<!-- <img src="img/smallimg1.jpeg" alt="small image" class="img-responsive center-block single-small-img"> -->
+						<i class="fa fa-magic"></i>
+						<h3>Web Design</h3>
 					</div>
 
 					<div class="col-lg-3 ol-md-3 col-sm-6 col-xm-12  single-feature" >
-						<img src="img/smallimg2.jpeg" alt="small image" class="img-responsive center-block single-small-img">
+						<!-- <img src="img/smallimg2.jpeg" alt="small image" class="img-responsive center-block single-small-img"> -->
+						<i class="fa fa-gift"></i>
+						<h3>Graphics Design</h3>
 					</div>
 
 					<div class="col-lg-3 ol-md-3 col-sm-6 col-xm-12  single-feature" >
-						<img src="img/smallimg3.jpeg" alt="small image" class="img-responsive center-block single-small-img">
+						<!-- <img src="img/smallimg3.jpeg" alt="small image" class="img-responsive center-block single-small-img"> -->
+						<i class="fa fa-wordpress"></i>
+						<h3>Wordpress Theam</h3>
 					</div>
 
 					<div class="col-lg-3 ol-md-3 col-sm-6 col-xm-12 single-feature" >
-						<img src="img/smallimg4.jpeg" alt="small image" class="img-responsive center-block single-small-img">
+						<!-- <img src="img/smallimg4.jpeg" alt="small image" class="img-responsive center-block single-small-img"> -->
+						<i class="fa fa-plug"></i>
+						<h3>Software Development</h3>
 					</div>
 
 				</div>      
@@ -135,10 +148,10 @@
 		<div class="feature-text">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-12">
+					<div class="col-md-12 text-center">
 						<h4>FindingSoft assembled some topnotch software engineers in our country to work together.
 						Each member of the team has done something exceptional in different areas.</h4>
-						<button type="submit" class="btn btn-primary" ><a href="#" style="color: #fff">Banglasoft</a></button>
+						<button type="submit" class="btn btn-primary text-center" ><a href="#" style="color: #fff">Banglasoft</a></button>
 					</div>
 				</div>
 			</div>
@@ -148,13 +161,22 @@
 	<!--End of Feature Block-->
 
 	<!--Start of Portfolio Block-->
-	<div class="portfolio-block">
+	<div class="portfolio-block" id="portfolio-address">
 		<div class="container">
 			<div class="portfolio-header" style="text-align: center;"><h4>Poftfolio</h4></div>
 			<div class="portfolio-body">
-				<div class="col-lg-4 single-portfolio"><img src="img/softwaredev.jpeg" alt="software"></div>
-				<div class="col-lg-4 single-portfolio"><img src="img/webdev.jpeg" alt="web"></div>
-				<div class="col-lg-4 single-portfolio"><img src="img/mobiledev.jpeg" alt="mobile"></div>
+				<div class="col-lg-4 single-portfolio">
+					<img src="img/softwaredev.jpeg" alt="software">
+					<h3>Software Development</h3>
+				</div>
+				<div class="col-lg-4 single-portfolio">
+					<img src="img/webdev.jpeg" alt="web">
+					<h3>Web Development</h3>
+				</div>
+				<div class="col-lg-4 single-portfolio">
+					<img src="img/mobiledev.jpeg" alt="mobile">
+					<h3>Android App Development</h3>
+				</div>
 			</div>
 		</div>    
 	</div>
@@ -174,7 +196,7 @@
 			</div>
 
 			<div class="row">
-				<div class="about-us-description ">
+				<div class="about-us-description " id="about-address">
 
 					<div class="single-thought col-md-4 col-sm-6 col-xs-12 text-center" >
 						<img src="img/aboutimg1.jpeg" alt="about" class="img-responsive center-block">
@@ -208,7 +230,7 @@
 		<div class="container">
 			<div class="row">
 
-				<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+				<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 progress-block">
 					<div class="row">
 
 						<div class="skill">
@@ -329,7 +351,7 @@
 
 	<!--Start of team section-->
 
-	<div class="team-section">
+	<div class="team-section" id="team-address">
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12 team-heading">
@@ -339,7 +361,7 @@
 			</div>
 			<div class="row">
 				<div class="col-md-12">
-					<div class="owl-carousel">
+					<div class="owl-carousel" id="member-carousel_id">
 
 						<div class="single-member">
 							<div class="opacity"></div>
@@ -439,7 +461,7 @@
 	<!--End of team member section-->
 
 	<!--Start of training section-->
-	<div class="training-section">
+	<div class="training-section" id="training-address">
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12 traing-deatils">
@@ -459,7 +481,7 @@
 
 
 	<!--Start of Contact section-->
-	<div class="contact-section">
+	<div class="contact-section" id="contact-address">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">
@@ -546,12 +568,12 @@
 		<div class="container">
 			<div class="row">
 
-				<div class="col-md-4 text-center">
+				<div class="col-md-4 footer-block text-center">
 				 <p>cpyright &cpy banglasoft.com 2017-18  </p>
 				</div>
 
-				<div class="col-md-4 text-center">
-					<p>We are social</p><br>
+				<div class="col-md-4 footer-block text-center">
+					<p>We are social</p>
 					<ul>
 						<li class="footer-social bg-primary text-center"><a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
 						<li class="footer-social bg-primary text-center"><a href="https://www.twitter.com"><i class="fa fa-twitter"></i></a></li>
@@ -559,7 +581,7 @@
 					</ul>
 				</div>
 
-				<div class="col-md-4 text-center">
+				<div class="col-md-4 footer-block text-center">
 					<a href="#">Privacy Police</a>
 					<a href="#">Terms of Use</a>
 				</div>
@@ -572,15 +594,9 @@
 
 	<!--Start of js methods and library-->
 
-		<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+		
 		<!-- Js  imported here-->
-		<script src="js/bootstrap.min.js">
-			$('.carousel').carousel({
-				interval: 2000
-			})
-		</script> 
-
-		<!-- Js  imported here-->
+		
 		<!--<script type="text/javascript" src="js/bootstrap.js"></script>-->
 		<script src="js/owl.carousel.min.js"></script>
 		<script>
@@ -588,5 +604,16 @@
 				$(".owl-carousel").owlCarousel();
 			});
 		</script>
+
+		<script >$(document).ready(function () {
+    var carousel = $("#member-carousel_id");
+    carousel.owlCarousel({
+      navigation:true,
+      navigationText: [
+        "<i class='icon-chevron-left icon-white'><</i>",
+        "<i class='icon-chevron-right icon-white'>></i>"
+      ],
+  });          
+});</script>
 	</body>
 	</html>
