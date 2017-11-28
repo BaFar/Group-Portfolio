@@ -78,7 +78,7 @@
 					<img src="img/webdesigndev.jpg" alt="Nature Picture">
 					<div class="carousel-caption">
 						<h1>RisingSoft</h1>
-						<p>Quality is Important to US</p>
+						<p>Quality is Important to Us</p>
 					</div>
 				</div>				
 				<!--some thing here-->
@@ -153,7 +153,7 @@
 	<!--Start of Portfolio Block-->
 	<div class="portfolio-block" id="portfolio-address">
 		<div class="container">
-			<div class="portfolio-header" style="text-align: center;"><h4>Poftfolio</h4></div>
+			<div class="portfolio-header" style="text-align: center;"><h4>Portfolio</h4></div>
 			<div class="portfolio-body">
 				<div class="col-lg-4 single-portfolio">
 					<img src="img/softwaredev.jpeg" alt="software">
@@ -311,7 +311,7 @@
 					<div class="single-stat">
 
 						<i class="fa fa-cloud-upload" aria-hidden="true"><br><br>34</i>
-						<h3>Files upload</h3>
+						<h3>Files uploaded</h3>
 					</div>
 				</div>
 				<div class=" col-md-3 col-sm-6 col-xs-12 ">
@@ -346,7 +346,7 @@
 			<div class="row">
 				<div class="col-xs-12 team-heading">
 					<h2>Our Team</h2>
-					<p>Meet with out amazing team</p>
+					<p>Meet with our amazing team</p>
 				</div>
 			</div>
 			<div class="row">
