@@ -568,8 +568,8 @@
 		<div class="container">
 			<div class="row">
 
-				<div class="col-md-4 footer-block text-center">
-				 <p>cpyright &cpy banglasoft.com 2017-18  </p>
+				<div class="col-md-4 footer-block-copyright text-center">
+				 <span class="copyright">copyright &copy Banglasoft.com 2017</span>
 				</div>
 
 				<div class="col-md-4 footer-block text-center">
@@ -581,7 +581,7 @@
 					</ul>
 				</div>
 
-				<div class="col-md-4 footer-block text-center">
+				<div class="col-md-4 footer-block-terms text-center">
 					<a href="#">Privacy Police</a>
 					<a href="#">Terms of Use</a>
 				</div>
