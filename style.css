@@ -7,14 +7,6 @@
 	background-color: rgba(0,0,0,0.4);
 }
 
-.element-color{
-	color: #fff!important;
-}
-.main-menu ul li a:hover{
-
-background-color: green;
-}
-
 .item{
 	
 }
@@ -164,7 +156,7 @@ background-color: green;
 	height: 100%;
 	width: 100%;
 	position: absolute;
-	opacity: 0.4;
+	opacity: 0.6;
 }
 .single-member:hover .opacity, .single-member:hover .member-details {
 	
@@ -255,10 +247,12 @@ text-align: center;
 
 
 }
-.
 
-.footer-block-terms, .footer-block-copyright{
-	margin-top:35px;
+
+
+.footer-block-copyright{
+	margin-top:30px;
+	color: #fff;
 }
 .footer-social a i{
 	color: #fff;
@@ -280,4 +274,15 @@ text-align: center;
 
 .footer-block p{
 	padding-left: 33px;
+}
+.footer-block-terms {
+	margin-top: 30px;
+	
+}
+.footer-block-terms a{
+	color:#fff;
+}
+.footer-block-terms a:hover{
+	color: blue;
+	text-decoration: none;
 }

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>banglasoft.com</title>
+	<title>risingsoft.com</title>
 	<meta charset="utf-8">
 	<meta name="viewport" width="device-width" initial-scale="1.0">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
@@ -19,24 +19,24 @@
 
 
 </head>
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
 	<div class="page_header">	
 
 		<div class="nav navbar-inverse nav-position element-color">
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-12 main-menu">
+					<div class="col-lg-12 main-menu  navbar navbar-inverse" data-spy="affix" data-offset-top="197">
 						<div class="navbar-header">
 							<button class="navbar-toggle" data-target="#mobile_manu" data-toggle="collapse">
 								<span class="icon-bar"></span>
 								<span class="icon-bar"></span>
 								<span class="icon-bar"></span>
 							</button>
-							<a href="#" class="navbar-brand element-color">BanglaSoft</a>
+							<a href="#" class="navbar-brand">RisingSoft</a>
 
 						</div>
-						<ul class="nav navbar-nav navbar-collapse collapse navbar-right " id="mobile_manu">
-							<li class="active"><a href="#feature-address">Feature</a></li>
+						<ul class="nav navbar-nav navbar-collapse collapse navbar-right" id="mobile_manu">
+							<li><a href="#feature-address">Feature</a></li>
 							<li><a href="#portfolio-address" class="element-color">Portfolio</a></li>
 							<li><a href="#about-address" class="element-color">About</a></li>
 							<li><a href="#team-address" class="element-color">Team</a></li>							
@@ -55,42 +55,32 @@
 				<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
 				<li data-target="#carousel-example-generic" data-slide-to="1"></li>
 				<li data-target="#carousel-example-generic" data-slide-to="2"></li>
-				<li data-target="#carousel-example-generic" data-slide-to="3"></li>
-				<li data-target="#carousel-example-generic" data-slide-to="4"></li>
+				
 			</ol>
 
 			<!-- Wrapper for slides -->
 			<div class="carousel-inner" role="listbox">
 				<div class="item active">
-					<img src="img/grass-flower-morning.jpeg" alt="Nature Picture" >
+					<img src="img/development.jpg" alt=" Picture" >
 					<div class="carousel-caption">
-						<P>NO Caption</P>
+						<h1>RisingSoft</h1>
+						<p>Welcome to RisingSoft</p>
 					</div>
 				</div>
 				<div class="item">
-					<img src="img/natureimage1.jpeg" alt="Nature Picture" >
+					<img src="img/code.jpg" alt=" Picture" >
 					<div class="carousel-caption">
-						<P>NO Caption</P>
+						<h1>RisingSoft</h1>
+						<p>We Add Value to Our Partner</p>
 					</div>
 				</div>
 				<div class="item">
-					<img src="img/natureimage2.jpeg" alt="Nature Picture">
+					<img src="img/webdesigndev.jpg" alt="Nature Picture">
 					<div class="carousel-caption">
-						<P>NO Caption</P>
+						<h1>RisingSoft</h1>
+						<p>Quality is Important to US</p>
 					</div>
-				</div>
-				<div class="item">
-					<img src="img/natureimage3.jpeg" alt="Nature Picture" >
-					<div class="carousel-caption">
-						<P>NO Caption</P>
-					</div>
-				</div>
-				<div class="item">
-					<img src="img/natureimage4.jpeg" alt="Nature Picture" >
-					<div class="carousel-caption">
-						<P>NO Caption</P>
-					</div>
-				</div>
+				</div>				
 				<!--some thing here-->
 			</div>
 
@@ -149,9 +139,9 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12 text-center">
-						<h4>FindingSoft assembled some topnotch software engineers in our country to work together.
+						<h4>RisingSoft assembled some topnotch software engineers in our country to work together.
 						Each member of the team has done something exceptional in different areas.</h4>
-						<button type="submit" class="btn btn-primary text-center" ><a href="#" style="color: #fff">Banglasoft</a></button>
+						<button type="submit" class="btn btn-primary text-center" ><a href="#" style="color: #fff">RisingSoft</a></button>
 					</div>
 				</div>
 			</div>
@@ -183,20 +173,20 @@
 	<!--End of Portfolio block-->
 
 	<!--Start of about us block-->
-	<div class="about-us-section1">
+	<div class="about-us-section1" id="about-address">
 		<div class="container">
 
 			<div class="row">
 				<div class="col-md-12 col-xs-12">
 					<div class="about_us-header text-center">
 						<h4>About Us</h4>
-						<p>Journey Towards A Dream Roaed</p>
+						<p>Journey Towards A Dream Road</p>
 					</div>
 				</div>
 			</div>
 
 			<div class="row">
-				<div class="about-us-description " id="about-address">
+				<div class="about-us-description ">
 
 					<div class="single-thought col-md-4 col-sm-6 col-xs-12 text-center" >
 						<img src="img/aboutimg1.jpeg" alt="about" class="img-responsive center-block">
@@ -365,7 +355,7 @@
 
 						<div class="single-member">
 							<div class="opacity"></div>
-							<img src="img/aboutimg1.jpeg" alt="image" class="img-responsive">
+							<img src="img/bashir.png" alt="image" class="img-responsive">
 							<div class="member-details">
 								<h3>Bashir Fardoudh</h3>
 								<p>Android Developer</p>
@@ -380,7 +370,7 @@
 
 						<div class="single-member">
 							<div class="opacity"></div>
-							<img src="img/aboutimg2.jpeg" alt="image" class="img-responsive">
+							<img src="img/saad.jpg" alt="image" class="img-responsive">
 							<div class="member-details">
 								<h3>Saad Ahmad</h3>
 								<p>.NET developer</p>
@@ -394,7 +384,7 @@
 						</div>
 						<div class="single-member">
 							<div class="opacity"></div>
-							<img src="img/aboutimg3.jpeg" alt="image" class="img-responsive">
+							<img src="img/ripon.png" alt="image" class="img-responsive">
 							<div class="member-details">
 								<h3>Ahmed Ripon</h3>
 								<p>Web developer</p>
@@ -408,40 +398,10 @@
 						</div>
 						<div class="single-member">
 							<div class="opacity"></div>
-							<img src="img/aboutimg1.jpeg" alt="image" class="img-responsive">
+							<img src="img/mamun.png" alt="image" class="img-responsive">
 							<div class="member-details">
 								<h3>Mamun Ur Rashid</h3>
 								<p>Graphics Designer</p>
-								<ul>
-									<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-									<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-									<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-
-								</ul>
-							</div>
-						</div>
-
-						<div class="single-member">
-							<div class="opacity"></div>
-							<img src="img/aboutimg2.jpeg" alt="image" class="img-responsive">
-							<div class="member-details">
-								<h3>Some one</h3>
-								<p>C E O</p>
-								<ul>
-									<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-									<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-									<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-
-								</ul>
-							</div>
-						</div>
-
-						<div class="single-member">
-							<div class="opacity"></div>
-							<img src="img/aboutimg3.jpeg" alt="image" class="img-responsive">
-							<div class="member-details">
-								<h3>Some One</h3>
-								<p>On Post</p>
 								<ul>
 									<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
 									<li><a href="#"><i class="fa fa-twitter"></i></a></li>
@@ -465,10 +425,10 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12 traing-deatils">
-				<h2>BanglaSoft Institute</h2>
-				<p>High quality learning training courses of BanglaSoft Institute help you to achieve your training goals conveniently. These course are a low-cost and are a perfect solution for individuals or small companies.</p>
+				<h2>RisingSoft Institute</h2>
+				<p>High quality learning training courses of RisingSoft Institute help you to achieve your training goals conveniently. These course are a low-cost and are a perfect solution for individuals or small companies.</p>
 				<br>
-				<p>BanglaSoft provides professional training course on a wide variety of subject for a full-year of access to all the courses in that series. Our instructors are in-demand, call today for more information or to schedule training.</p>
+				<p>RisingSoft provides professional training course on a wide variety of subject for a full-year of access to all the courses in that series. Our instructors are in-demand, call today for more information or to schedule training.</p>
 				</div>
 				
 			</div>
@@ -503,11 +463,11 @@
 
 									</div>
 									<div class="form-group">
-										<input type="text" name="name" placeholder="Your name*"  class="form-control input-info">
+										<input type="email" name="name" placeholder="Your Email*"  class="form-control input-info">
 
 									</div>
 									<div class="form-group">
-										<input type="text" name="name" placeholder="Your name*"  class="form-control input-info">
+										<input type="tel" name="name" placeholder="Your Phone Number*"  class="form-control input-info">
 									</div>
 
 								</div>
@@ -534,10 +494,10 @@
 						<h3>Contact info</h3>
 							<ul>				
 							
-						   <li><strong>E-mail :</strong> info@findingsoft.com</li>
+						   <li><strong>E-mail :</strong> info@risingsoft.com</li>
 						   <li><strong> Phone :</strong> +8801715 551145</li>
 						   <li><strong> Mobile :</strong> +8801671 059640</li>
-						   <li><strong> Web :</strong> www.findingsoft.com</li>
+						   <li><strong> Web :</strong> www.risingsoft.com</li>
 					</ul>
 				</div>
 
@@ -568,8 +528,11 @@
 		<div class="container">
 			<div class="row">
 
-				<div class="col-md-4 footer-block-copyright text-center">
-				 <span class="copyright">copyright &copy Banglasoft.com 2017</span>
+				<div class="col-md-4 ">
+					<div class=" text-center footer-block-copyright ">
+						<span class="copyright">copyright &copy risingsoft.com 2017</span>
+					</div>
+				 
 				</div>
 
 				<div class="col-md-4 footer-block text-center">
@@ -581,9 +544,12 @@
 					</ul>
 				</div>
 
-				<div class="col-md-4 footer-block-terms text-center">
-					<a href="#">Privacy Police</a>
-					<a href="#">Terms of Use</a>
+				<div class="col-md-4">
+					<div class=" text-center footer-block-terms">
+						<a href="#">Privacy Police</a>
+						<a href="#">Terms of Use</a>
+					</div>
+					
 				</div>
 
 			</div>
@@ -615,5 +581,9 @@
       ],
   });          
 });</script>
+
+
+
+
 	</body>
 	</html>
